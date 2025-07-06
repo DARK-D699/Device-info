@@ -47,7 +47,7 @@ clear
 }
 dxnetcheck
 echo
-    echo ; echo -e "		        ${g}Hey ${y}Dear" ; echo -e "${c}              (\_/)" ; echo -e "              (${y}^ω^${c})     ${g}I'm Dx-Simu${c}" ; echo -e "             ⊂(___)づ  ⋅˚₊‧ ଳ ‧₊˚ ⋅"
+    echo ; echo -e "		        ${g}Hey ${y}Dear" ; echo -e "${c}              (\_/)" ; echo -e "              (${y}^ω^${c})     ${g}I'm DARK-D699${c}" ; echo -e "             ⊂(___)づ  ⋅˚₊‧ ଳ ‧₊˚ ⋅"
     echo ; echo -e " ${A} ${c}Please Enter Your ${g}Telegram Bot token \n ${A} ${c}And Your ${g}Chat Id ${c}\n"
 
 read -p "[+]─[Enter Token]──➤ " token
